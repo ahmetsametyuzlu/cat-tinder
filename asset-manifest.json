@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/cat-tinder/static/css/main.c92f2711.chunk.css",
-    "main.js": "/cat-tinder/static/js/main.d251b89c.chunk.js",
-    "main.js.map": "/cat-tinder/static/js/main.d251b89c.chunk.js.map",
+    "main.js": "/cat-tinder/static/js/main.aa083516.chunk.js",
+    "main.js.map": "/cat-tinder/static/js/main.aa083516.chunk.js.map",
     "runtime-main.js": "/cat-tinder/static/js/runtime-main.7a3a3a3e.js",
     "runtime-main.js.map": "/cat-tinder/static/js/runtime-main.7a3a3a3e.js.map",
-    "static/js/2.191e3505.chunk.js": "/cat-tinder/static/js/2.191e3505.chunk.js",
-    "static/js/2.191e3505.chunk.js.map": "/cat-tinder/static/js/2.191e3505.chunk.js.map",
+    "static/js/2.d6d98856.chunk.js": "/cat-tinder/static/js/2.d6d98856.chunk.js",
+    "static/js/2.d6d98856.chunk.js.map": "/cat-tinder/static/js/2.d6d98856.chunk.js.map",
     "index.html": "/cat-tinder/index.html",
     "static/css/main.c92f2711.chunk.css.map": "/cat-tinder/static/css/main.c92f2711.chunk.css.map",
-    "static/js/2.191e3505.chunk.js.LICENSE.txt": "/cat-tinder/static/js/2.191e3505.chunk.js.LICENSE.txt"
+    "static/js/2.d6d98856.chunk.js.LICENSE.txt": "/cat-tinder/static/js/2.d6d98856.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7a3a3a3e.js",
-    "static/js/2.191e3505.chunk.js",
+    "static/js/2.d6d98856.chunk.js",
     "static/css/main.c92f2711.chunk.css",
-    "static/js/main.d251b89c.chunk.js"
+    "static/js/main.aa083516.chunk.js"
   ]
 }
