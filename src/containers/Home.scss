@@ -1,0 +1,32 @@
+.page-home {
+  p {
+    text-align: center;
+  }
+
+  .category-list {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    > a {
+      width: calc((100% - 32px) / 3);
+      background-size: cover;
+      padding: 200px 20px 20px;
+      box-sizing: border-box;
+      text-underline: none;
+      text-decoration: none;
+
+      span {
+        display: block;
+        background: #ffffff;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+        color: #000;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

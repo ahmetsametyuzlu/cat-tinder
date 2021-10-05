@@ -1,0 +1,122 @@
+.page-stats {
+  .stats-title {
+    font-weight: bold;
+  }
+
+  .stats {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 0 0 100px 0;
+
+    > div {
+      border: 1px solid gray;
+      border-radius: 10px;
+      width: calc((100% - 20px) / 3);
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      box-sizing: border-box;
+
+      .stat-image {
+        border: 1px solid #000000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .stat-detail {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+
+        strong {
+          display: block;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        span {
+          display: block;
+          font-size: 12px;
+        }
+      }
+
+      &.stat-pet {
+        .stat-image {
+          border-color: green;
+        }
+
+        .stat-detail {
+          strong {
+            color: green;
+          }
+        }
+      }
+
+      &.stat-no-pet {
+        .stat-image {
+          border-color: red;
+        }
+
+        .stat-detail {
+          strong {
+            color: red;
+          }
+        }
+      }
+
+      &.stat-skip {
+        .stat-image {
+          border-color: gray;
+        }
+
+        .stat-detail {
+          strong {
+            color: gray;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+
+      > div {
+        width: 100%;
+      }
+    }
+  }
+
+  .stats-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: calc((100% - 10px) / 3);
+    margin: 0 auto;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
+    a {
+      padding: 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid #666;
+      border-radius: 5px;
+      text-align: center;
+      color: #666;
+
+      &:first-child {
+        background: orange;
+        color: #ffffff;
+        border-color: orange;
+      }
+    }
+  }
+}

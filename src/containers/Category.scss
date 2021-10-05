@@ -1,0 +1,63 @@
+.page-category {
+  .category-title {
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .cat {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    .cat-image {
+      background-size: cover;
+      height: 500px;
+      overflow: hidden;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin: 0 0 10px 0;
+    }
+
+    .cat-process {
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+
+    .cat-action {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      margin: 0 0 10px 0;
+
+      button {
+        width: 90px;
+
+        span {
+          display: block;
+        }
+      }
+
+      .cat-action-pet {
+        span {
+          color: green;
+        }
+      }
+
+      .cat-action-pet-no {
+        span {
+          color: red;
+        }
+      }
+
+      .cat-action-pet-skip {
+        span {
+          color: gray;
+        }
+      }
+    }
+  }
+}
