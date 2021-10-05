@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cat-tinder/static/css/main.c92f2711.chunk.css",
-    "main.js": "/cat-tinder/static/js/main.ae2093a1.chunk.js",
-    "main.js.map": "/cat-tinder/static/js/main.ae2093a1.chunk.js.map",
+    "main.js": "/cat-tinder/static/js/main.f3bb741c.chunk.js",
+    "main.js.map": "/cat-tinder/static/js/main.f3bb741c.chunk.js.map",
     "runtime-main.js": "/cat-tinder/static/js/runtime-main.7a3a3a3e.js",
     "runtime-main.js.map": "/cat-tinder/static/js/runtime-main.7a3a3a3e.js.map",
     "static/js/2.191e3505.chunk.js": "/cat-tinder/static/js/2.191e3505.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.7a3a3a3e.js",
     "static/js/2.191e3505.chunk.js",
     "static/css/main.c92f2711.chunk.css",
-    "static/js/main.ae2093a1.chunk.js"
+    "static/js/main.f3bb741c.chunk.js"
   ]
 }
